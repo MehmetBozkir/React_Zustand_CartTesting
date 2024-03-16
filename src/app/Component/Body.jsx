@@ -10,7 +10,7 @@ function Body() {
             Welcome <br/> To <br/> React Coffee!
           </h1>
           <p className="py-6 mt-10">
-            We believe that every cup carries a story. Whether you're seeking an
+            We believe that every cup carries a story. Whether youre seeking an
             energy boost to start your day or looking to spend quality time with
             friends over delightful conversations, this place is for you. 
           </p>
