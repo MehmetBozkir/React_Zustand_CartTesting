@@ -9,6 +9,12 @@
     "Contact": "Contact",
     "Jobs": "Jobs",
     "Press kit": "Press kit",
-    "Last": "Copyright © 2024 - All right reserved by Mehmet Salih Bozkir"
+    "Last": "Copyright © 2024 - All right reserved by Mehmet Salih Bozkir",
+    "Cart": "Cart",
+    "Item": "Item",
+    "Price": "Price",
+    "Count": "Count",
+    "Total": "Total",
+    "Action": "Action"
   }
 }
