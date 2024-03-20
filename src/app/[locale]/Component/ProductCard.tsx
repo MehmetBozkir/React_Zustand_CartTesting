@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import CoffeeImage from "../../../public/product-image/coffee.jpg";
+import CoffeeImage from "../../../../public/product-image/coffee.jpg"
 import { formatNumber } from "../utils/format";
 import { useCartStore } from "../store/cart";
 import { Product } from "../models/product";
