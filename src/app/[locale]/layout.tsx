@@ -13,12 +13,21 @@ export const metadata = {
   description: "React Coffe Shop",
 };
 
-export default function RootLayout({ children }) {
+export default function LocaleLayout({
+  children,
+  params: { locale },
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
   return (
-    <html lang="en" className="bg-gradient-to-r from-amber-200 to-amber-900">
-      <body className={`antialiased  ${font.className}` } >
+    <html
+      lang={locale}
+      className="bg-gradient-to-r from-amber-200 to-amber-900"
+    >
+      <body className={`antialiased  ${font.className}`}>
         <Navbar />
-        <main className="mx-auto max-w-6xl" >{children}</main>
+        <main className="mx-auto max-w-6xl">{children}</main>
 
         <Footer />
       </body>

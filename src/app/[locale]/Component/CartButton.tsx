@@ -1,7 +1,7 @@
 "use client";
 
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
+import { Link } from "./navigation";
 import { useCartStore } from "../store/cart";
 
 export default function CartButton() {
