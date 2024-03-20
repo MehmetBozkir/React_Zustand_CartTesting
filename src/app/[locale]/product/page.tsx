@@ -1,7 +1,9 @@
 import ProductCard from "../Component/ProductCard"
 import { Product } from "../models/product";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
+  const t = useTranslations("Index");
   const products: Product[] = [
     {
       id: 1,
@@ -29,7 +31,7 @@ export default function Page() {
     <>
     <div className="min-h-screen ">
       <h1 className="font-semibold text-slate-200 text-2xl border-b pb-4 border-b-slate-700 mt-8">
-        Products
+      {t("nav")}
       </h1>
 
       <div className="text-sm pt-4 flex gap-4 ">

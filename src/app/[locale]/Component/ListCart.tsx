@@ -2,32 +2,23 @@
 
 import DeleteButton from "./DeleteButton";
 import { useCartStore } from "../store/cart";
+import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 export default function ListCart() {
   const { cart } = useCartStore();
   return (
-    <div className="flex flex-col gap-2 mt-4 shadow-2xl bg-base-100 bg-opacity-40">
+    <div className="flex flex-col mt-4 shadow-2xl bg-base-100 bg-opacity-40">
       <table className="text-white">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Item</th>
-            <th>Price</th>
-            <th>Count</th>
-            <th>Total</th>
-            <th>Action</th>
-          </tr>
-        </thead>
         <tbody>
           {cart.length ? (
             cart.map((item, index) => (
               <tr key={item.id}>
                 <td className="text-center">{index + 1}</td>
-                <td>{item.name}</td>
-                <td className="text-right">{item.price}</td>
+                <td className="text-right w-20">{item.name}</td>
+                <td className="text-center">{item.price}</td>
                 <td className="text-center">{item.count}</td>
-                <td className="text-right">{item.count * item.price}</td>
-                <td className="text-center">
+                <td className="text-center w-46">{item.count * item.price}</td>
+                <td className="text-center w-48">
                   <DeleteButton idProduct={item.id} />
                 </td>
               </tr>

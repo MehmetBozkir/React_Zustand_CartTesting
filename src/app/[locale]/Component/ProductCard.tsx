@@ -11,10 +11,11 @@ type ProductCartProps = {
   name: string;
   price: number;
 };
-
+  
 export default function ProductCard({ id, name, price }: ProductCartProps) {
   const { add: handleAddToCart } = useCartStore();
   const product = { id, name, price } as Product;
+  
 
   return (
     <div className="border p-3 rounded-xl border-slate-700">
