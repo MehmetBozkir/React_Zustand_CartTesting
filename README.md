@@ -1,19 +1,44 @@
 # React_Zustand_CartTesting
 
 
-eCommorce Website Via Api | Nextjs,Axios , Zustand.
+eCommorce Website | Nextjs, Zustand, Next-intl, Stripe.
 
 
 <p align="center"> 
 
 <br> 
   
-  :wrench: Features 
+:wrench: Features 
   -----------------------------
 
+- Designing a sales site and adding a payment screen while implementing <b>Zustand</b> operating logic and status management.
+
+  <br> 
+
+## :link: Demo
+  - <a target="_blank" href="https://react-zustand-coffeshop.netlify.app/"> Netflify </a> to see and examine by yourself a demo of the site.
   
-- API configuration while performing <b>Zustand</b> operating logic and state management.
-  
+<br> 
+
+  ## 💬 Project Innovations/Advantages
+
+1\. Zustand :
+
+  - An alternative state management to Redux.
+  - Lighter state management.
+
+2\. Next-intl :
+
+  - Multi-language options available throughout the site.
+  - Navigation through language options.
+
+  - An alternative state management to Redux.
+  - Lighter state management.
+
+3\. Stripe :
+
+  - Payment screen demo.
+
 <br> 
  
   ## :book: How to use
@@ -32,7 +57,3 @@ $ npm install
 # Run the app
 $ npm run dev
 ```
-## :link: Demo
-  - <a target="_blank" href="https://react-zustand-coffeshop.netlify.app/"> Netflify </a> to see and examine by yourself a demo of the site..
-
-<br> 
