@@ -15,6 +15,7 @@
     "Price": "Fiyat",
     "Count": "Adet",
     "Total": "Toplam",
-    "Action": "Tepki"
+    "Action": "Tepki",
+    "Buy": "Satın Al"
   }
 }
